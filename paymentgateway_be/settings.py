@@ -54,8 +54,9 @@ MIDDLEWARE = [
 ]
 
 CORS_ALLOWED_ORIGINS = [
-    "http://localhost:3000",
-    "https://gradient.hadziqrazin.com",
+    "http://localhost:3000", # fe dev
+    "https://gradient.hadziqrazin.com", # fe prod
+    "https://paymentgateway-1092939261137.asia-southeast2.run.app", # be prod
 ]
 
 ROOT_URLCONF = 'paymentgateway_be.urls'
