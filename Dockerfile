@@ -14,5 +14,5 @@ RUN pip install --upgrade pip && pip install -r requirements.txt
 COPY . .
 
 # run server
-CMD ["gunicorn", "paymentgateway_be.wsgi:application", "--bind", "0.0.0.0:$PORT"]
+CMD ["sh", "-c", "gunicorn", "paymentgateway_be.wsgi:application", "--bind", "0.0.0.0:$PORT"]
 
