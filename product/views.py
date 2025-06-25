@@ -10,4 +10,4 @@ class ProductView(APIView):
             { 'price': 200, 'name': 'Produk 2' },
             { 'price': 300, 'name': 'Produk 3' },
         ]
-        return Response(ProductSerializer(data, many=True).data)
+        return Response(ProductSerializer(MOCK_DATA, many=True).data)
