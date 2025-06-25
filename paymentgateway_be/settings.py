@@ -53,6 +53,11 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
+ALLOWED_HOSTS = [
+    'paymentgateway-1092939261137.asia-southeast2.run.app',
+    'localhost',
+]
+
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000", # fe dev
     "https://gradient.hadziqrazin.com", # fe prod
