@@ -64,8 +64,8 @@ class PaymentView(APIView):
                 "email": "johndoe@example.com",
                 "mobile_number": "+6287774441111"
             },
-            "success_redirect_url": f"http://localhost:3000/product/{product_id}",
-            "failure_redirect_url": "https://www.google.com",
+            "success_redirect_url": f"https://gradient.hadziqrazin.com/product/{product_id}",
+            "failure_redirect_url": "https://gradient.hadziqrazin.com",
             "currency": "IDR",
             "item": product,
             "metadata": {
