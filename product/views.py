@@ -64,7 +64,7 @@ class PaymentView(APIView):
                 "email": "johndoe@example.com",
                 "mobile_number": "+6287774441111"
             },
-            "success_redirect_url": "http://localhost:3000",
+            "success_redirect_url": f"http://localhost:3000/product/{product_id}",
             "failure_redirect_url": "https://www.google.com",
             "currency": "IDR",
             "item": product,
